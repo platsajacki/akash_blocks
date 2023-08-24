@@ -4,7 +4,7 @@ Author: Menyukhov Vyacheslav | email: menyukhov@bk.ru
 
 ## О проекте
 
-Эта функция позволяет получить информацию о транзакциях из указанного блока на сети Akash.
+Этот проект позволяет получить информацию о транзакциях из указанного блока на сети Akash.
 
 ## Использование
 
@@ -41,8 +41,7 @@ Author: Menyukhov Vyacheslav | email: menyukhov@bk.ru
     pip install -r requirements.txt
     ```
 
-## Пример использования:
-
+6. Пример использования:
     ```python
     # Замените block_height на номер интересующего вас блока
     block_height = 12345
