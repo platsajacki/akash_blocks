@@ -5,8 +5,8 @@ from requests import Response, get
 from requests.exceptions import RequestException
 
 
-def get_akash_block(block_height) -> str | list[bytes]:
-    """Get information about the Akash block by the specified height."""
+def get_transaction_by_akash_block(block_height) -> str | list[bytes]:
+    """Get transaction by the Akash block by the specified height."""
     url: str = f'https://akash-api.polkachu.com/blocks/{block_height}'
     try:
         response: Response = get(url)
